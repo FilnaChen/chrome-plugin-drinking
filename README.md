@@ -1,1 +1,1 @@
-# chrome-plugin-drinking
+# 这是一个提醒喝水的浏览器插件
