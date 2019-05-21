@@ -1,0 +1,15 @@
+{
+  "name": "Drinking",
+  "manifest_version": 2,
+  "version": "1.0",
+  "description": "remind of drinking water",
+  "browser_action": {
+    "default_icon": "./images/pic6.jpg"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.google.com/*"],
+      "js": ["script.js"]
+    }
+  ]
+}
